@@ -1,0 +1,257 @@
+WEEK,DATE,DAY,TIME,HOME_TEAM,AWAY_TEAM,HOME_POINTS,AWAY_POINTS,AMOS_HOMEWIN_PREDICTION,ELO_HOMEWIN_PREDICTION,BING_HOMEWIN_PREDICTION,FPI_HOMEWIN_PREDICTION,HOME_WIN_FLAG,AMOS_CORRECT_FLAG,ELO_CORRECT_FLAG,BING_CORRECT_FLAG,FPI_CORRECT_FLAG
+1,09/06/2018,Thu,8:20 PM,Philadelphia Eagles,Atlanta Falcons,18,12,0.692196488,0.65,0.53,0.586,1,1,1,1,1
+1,09/09/2018,Sun,1:00 PM,Baltimore Ravens,Buffalo Bills,47,3,0.725144863,0.64,0.66,0.837,1,1,1,1,1
+1,09/09/2018,Sun,1:00 PM,Cleveland Browns,Pittsburgh Steelers,21,21,0.315359563,0.21,0.27,0.347,0,0,0,0,0
+1,09/09/2018,Sun,1:00 PM,Indianapolis Colts,Cincinnati Bengals,23,34,0.376611531,0.499,0.61,0.614,0,1,1,0,0
+1,09/09/2018,Sun,1:00 PM,Miami Dolphins,Tennessee Titans,27,20,0.703173816,0.53,0.42,0.492,1,1,1,0,0
+1,09/09/2018,Sun,1:00 PM,Minnesota Vikings,San Francisco 49ers,24,16,0.69011724,0.76,0.61,0.697,1,1,1,1,1
+1,09/09/2018,Sun,1:00 PM,New England Patriots,Houston Texans,27,20,0.818423152,0.86,0.7,0.726,1,1,1,1,1
+1,09/09/2018,Sun,1:00 PM,New Orleans Saints,Tampa Bay Buccaneers,40,48,0.69011724,0.74,0.77,0.819,0,0,0,0,0
+1,09/09/2018,Sun,1:00 PM,New York Giants,Jacksonville Jaguars,15,20,0.411463469,0.42,0.42,0.51,0,1,1,1,0
+1,09/09/2018,Sun,4:05 PM,Los Angeles Chargers,Kansas City Chiefs,28,38,0.389966518,0.56,0.55,0.624,0,1,0,0,0
+1,09/09/2018,Sun,4:25 PM,Arizona Cardinals,Washington Redskins,6,24,0.69011724,0.61,0.61,0.573,0,0,0,0,0
+1,09/09/2018,Sun,4:25 PM,Carolina Panthers,Dallas Cowboys,16,8,0.690959275,0.6,0.55,0.599,1,1,1,1,1
+1,09/09/2018,Sun,4:25 PM,Denver Broncos,Seattle Seahawks,27,24,0.388516486,0.46,0.58,0.546,1,0,0,1,1
+1,09/09/2018,Sun,8:20 PM,Green Bay Packers,Chicago Bears,24,23,0.69011724,0.63,0.77,0.731,1,1,1,1,1
+1,09/10/2018,Mon,10:20 PM,Oakland Raiders,Los Angeles Rams,13,33,0.691402018,0.499,0.39,0.427,0,0,1,1,1
+1,09/10/2018,Mon,7:10 PM,Detroit Lions,New York Jets,17,48,0.69011724,0.71,0.78,0.716,0,0,0,0,0
+2,09/13/2018,Thu,8:20 PM,Cincinnati Bengals,Baltimore Ravens,34,23,0.724119067,0.501,0.6,0.438,1,1,1,1,0
+2,09/16/2018,Sun,1:00 PM,Atlanta Falcons,Carolina Panthers,31,24,0.694606781,0.62,0.66,0.652,1,1,1,1,1
+2,09/16/2018,Sun,1:00 PM,Buffalo Bills,Los Angeles Chargers,20,31,0.513682663,0.53,0.3,0.244,0,0,0,1,1
+2,09/16/2018,Sun,1:00 PM,Green Bay Packers,Minnesota Vikings,29,29,0.302207798,0.4,0.47,0.596,0,0,0,0,0
+2,09/16/2018,Sun,1:00 PM,New Orleans Saints,Cleveland Browns,21,18,0.779422343,0.85,0.72,0.744,1,1,1,1,1
+2,09/16/2018,Sun,1:00 PM,New York Jets,Miami Dolphins,12,20,0.755173981,0.61,0.53,0.621,0,0,0,0,0
+2,09/16/2018,Sun,1:00 PM,Pittsburgh Steelers,Kansas City Chiefs,37,42,0.826536953,0.58,0.61,0.646,0,0,0,0,0
+2,09/16/2018,Sun,1:00 PM,Tampa Bay Buccaneers,Philadelphia Eagles,27,21,0.803180933,0.37,0.51,0.401,1,1,0,1,0
+2,09/16/2018,Sun,1:00 PM,Tennessee Titans,Houston Texans,20,17,0.667679667,0.7,0.4,0.504,1,1,1,0,1
+2,09/16/2018,Sun,1:00 PM,Washington Redskins,Indianapolis Colts,9,21,0.830723882,0.75,0.69,0.699,0,0,0,0,0
+2,09/16/2018,Sun,4:05 PM,Los Angeles Rams,Arizona Cardinals,34,0,0.751318514,0.74,0.79,0.855,1,1,1,1,1
+2,09/16/2018,Sun,4:05 PM,San Francisco 49ers,Detroit Lions,30,27,0.282898724,0.58,0.61,0.744,1,0,1,1,1
+2,09/16/2018,Sun,4:25 PM,Denver Broncos,Oakland Raiders,20,19,0.68825841,0.63,0.7,0.636,1,1,1,1,1
+2,09/16/2018,Sun,4:25 PM,Jacksonville Jaguars,New England Patriots,31,20,0.455849856,0.44,0.4,0.503,1,0,0,0,1
+2,09/16/2018,Sun,8:20 PM,Dallas Cowboys,New York Giants,20,13,0.693181217,0.76,0.6,0.713,1,1,1,1,1
+2,09/17/2018,Mon,8:15 PM,Chicago Bears,Seattle Seahawks,24,17,0.355490893,0.46,0.55,0.578,1,0,0,1,1
+3,09/20/2018,Thu,8:20 PM,Cleveland Browns,New York Jets,21,17,0.366145343,0.38,0.72,0.606,1,0,0,1,1
+3,09/23/2018,Sun,1:00 PM,Atlanta Falcons,New Orleans Saints,37,43,0.548553407,0.66,0.66,0.642,0,0,0,0,0
+3,09/23/2018,Sun,1:00 PM,Baltimore Ravens,Denver Broncos,27,14,0.511425376,0.68,0.68,0.782,1,1,1,1,1
+3,09/23/2018,Sun,1:00 PM,Carolina Panthers,Cincinnati Bengals,31,21,0.87452209,0.63,0.28,0.576,1,1,1,0,1
+3,09/23/2018,Sun,1:00 PM,Houston Texans,New York Giants,22,27,0.666123271,0.59,0.59,0.692,0,0,0,0,0
+3,09/23/2018,Sun,1:00 PM,Jacksonville Jaguars,Tennessee Titans,6,9,0.890880823,0.71,0.71,0.769,0,0,0,0,0
+3,09/23/2018,Sun,1:00 PM,Kansas City Chiefs,San Francisco 49ers,38,27,0.776609838,0.77,0.77,0.645,1,1,1,1,1
+3,09/23/2018,Sun,1:00 PM,Miami Dolphins,Oakland Raiders,28,20,0.605597079,0.68,0.63,0.661,1,1,1,1,1
+3,09/23/2018,Sun,1:00 PM,Minnesota Vikings,Buffalo Bills,6,27,0.773922384,0.78,0.79,0.907,0,0,0,0,0
+3,09/23/2018,Sun,1:00 PM,Philadelphia Eagles,Indianapolis Colts,20,16,0.731303513,0.83,0.66,0.729,1,1,1,1,1
+3,09/23/2018,Sun,1:00 PM,Washington Redskins,Green Bay Packers,31,17,0.537835598,0.57,0.43,0.517,1,1,1,0,1
+3,09/23/2018,Sun,4:05 PM,Los Angeles Rams,Los Angeles Chargers,35,23,0.526342392,0.64,0.75,0.728,1,1,1,1,1
+3,09/23/2018,Sun,4:25 PM,Arizona Cardinals,Chicago Bears,14,16,0.295320421,0.55,0.43,0.443,0,1,0,1,1
+3,09/23/2018,Sun,4:25 PM,Seattle Seahawks,Dallas Cowboys,24,13,0.644714355,0.55,0.55,0.536,1,1,1,1,1
+3,09/23/2018,Sun,8:20 PM,Detroit Lions,New England Patriots,26,10,0.302207917,0.36,0.64,0.389,1,0,0,0,0
+3,09/24/2018,Mon,8:15 PM,Tampa Bay Buccaneers,Pittsburgh Steelers,27,30,0.474796951,0.54,0.43,0.468,0,1,0,1,1
+4,09/27/2018,Thu,8:20 PM,Los Angeles Rams,Minnesota Vikings,38,31,0.780228436,0.65,0.73,0.797,1,1,1,1,1
+4,09/30/2018,Sun,1:00 PM,Atlanta Falcons,Cincinnati Bengals,36,37,0.845108032,0.68,0.6,0.663,0,0,0,0,0
+4,09/30/2018,Sun,1:00 PM,Chicago Bears,Tampa Bay Buccaneers,48,10,0.488132209,0.53,0.55,0.576,1,0,1,1,1
+4,09/30/2018,Sun,1:00 PM,Dallas Cowboys,Detroit Lions,26,24,0.221208528,0.62,0.64,0.687,1,0,1,1,1
+4,09/30/2018,Sun,1:00 PM,Green Bay Packers,Buffalo Bills,22,0,0.663021147,0.53,0.67,0.755,1,1,1,1,1
+4,09/30/2018,Sun,1:00 PM,Indianapolis Colts,Houston Texans,34,37,0.608602524,0.67,0.53,0.605,0,0,0,0,0
+4,09/30/2018,Sun,1:00 PM,Jacksonville Jaguars,New York Jets,31,12,0.709253013,0.74,0.7,0.727,1,1,1,1,1
+4,09/30/2018,Sun,1:00 PM,New England Patriots,Miami Dolphins,38,7,0.706515551,0.7,0.67,0.722,1,1,1,1,1
+4,09/30/2018,Sun,1:00 PM,Tennessee Titans,Philadelphia Eagles,26,23,0.360089689,0.4,0.42,0.38,1,0,0,0,0
+4,09/30/2018,Sun,4:05 PM,Arizona Cardinals,Seattle Seahawks,17,20,0.185039252,0.43,0.33,0.323,0,1,1,1,1
+4,09/30/2018,Sun,4:05 PM,Oakland Raiders,Cleveland Browns,45,42,0.716109514,0.71,0.57,0.656,1,1,1,1,1
+4,09/30/2018,Sun,4:25 PM,Los Angeles Chargers,San Francisco 49ers,29,27,0.54143101,0.68,0.67,0.756,1,1,1,1,1
+4,09/30/2018,Sun,4:25 PM,New York Giants,New Orleans Saints,18,33,0.356174171,0.35,0.57,0.493,0,1,1,0,1
+4,09/30/2018,Sun,8:20 PM,Pittsburgh Steelers,Baltimore Ravens,14,26,0.619617105,0.63,0.6,0.556,0,0,0,0,0
+4,10/01/2018,Mon,8:15 PM,Denver Broncos,Kansas City Chiefs,23,27,0.900165498,0.35,0.33,0.42,0,0,1,1,1
+5,10/04/2018,Thu,8:20 PM,New England Patriots,Indianapolis Colts,38,24,0.798925757,0.83,0.8,0.767,1,1,1,1,1
+5,10/07/2018,Sun,1:00 PM,Buffalo Bills,Tennessee Titans,13,12,0.185080439,0.52,0.34,0.428,1,0,1,0,0
+5,10/07/2018,Sun,1:00 PM,Carolina Panthers,New York Giants,33,31,0.798925757,0.8,0.7,0.734,1,1,1,1,1
+5,10/07/2018,Sun,1:00 PM,Cincinnati Bengals,Miami Dolphins,27,17,0.737158656,0.63,0.63,0.759,1,1,1,1,1
+5,10/07/2018,Sun,1:00 PM,Cleveland Browns,Baltimore Ravens,12,9,0.282898724,0.24,0.4,0.278,1,0,0,0,0
+5,10/07/2018,Sun,1:00 PM,Detroit Lions,Green Bay Packers,31,23,0.476007432,0.6,0.4,0.496,1,0,1,0,0
+5,10/07/2018,Sun,1:00 PM,Kansas City Chiefs,Jacksonville Jaguars,30,14,0.676464617,0.68,0.67,0.589,1,1,1,1,1
+5,10/07/2018,Sun,1:00 PM,New York Jets,Denver Broncos,34,16,0.282898813,0.56,0.63,0.588,1,0,1,1,1
+5,10/07/2018,Sun,1:00 PM,Pittsburgh Steelers,Atlanta Falcons,41,17,0.716278076,0.57,0.58,0.584,1,1,1,1,1
+5,10/07/2018,Sun,4:05 PM,Los Angeles Chargers,Oakland Raiders,26,10,0.421996087,0.73,0.61,0.734,1,0,1,1,1
+5,10/07/2018,Sun,4:25 PM,Philadelphia Eagles,Minnesota Vikings,21,23,0.780517459,0.7,0.64,0.6,0,0,0,0,0
+5,10/07/2018,Sun,4:25 PM,San Francisco 49ers,Arizona Cardinals,18,28,0.883117259,0.66,0.55,0.756,0,0,0,0,0
+5,10/07/2018,Sun,4:25 PM,Seattle Seahawks,Los Angeles Rams,31,33,0.518816292,0.501,0.26,0.344,0,0,0,1,1
+5,10/07/2018,Sun,8:20 PM,Houston Texans,Dallas Cowboys,19,16,0.562096596,0.39,0.51,0.581,1,1,0,1,1
+5,10/08/2018,Mon,8:15 PM,New Orleans Saints,Washington Redskins,43,19,0.65462172,0.73,0.66,0.618,1,1,1,1,1
+6,10/11/2018,Thu,8:20 PM,New York Giants,Philadelphia Eagles,13,34,0.336127788,0.29,0.43,0.501,0,1,1,1,0
+6,10/14/2018,Sun,1:00 PM,Atlanta Falcons,Tampa Bay Buccaneers,34,29,0.780185819,0.67,0.66,0.651,1,1,1,1,1
+6,10/14/2018,Sun,1:00 PM,Cincinnati Bengals,Pittsburgh Steelers,21,28,0.406416595,0.54,0.53,0.529,0,1,0,0,0
+6,10/14/2018,Sun,1:00 PM,Cleveland Browns,Los Angeles Chargers,14,38,0.282898724,0.31,0.51,0.399,0,1,1,0,1
+6,10/14/2018,Sun,1:00 PM,Houston Texans,Buffalo Bills,20,13,0.545750499,0.48,0.75,0.782,1,1,0,1,1
+6,10/14/2018,Sun,1:00 PM,Miami Dolphins,Chicago Bears,31,28,0.353632063,0.54,0.4,0.36,1,0,1,0,0
+6,10/14/2018,Sun,1:00 PM,Minnesota Vikings,Arizona Cardinals,27,17,0.773922443,0.74,0.78,0.844,1,1,1,1,1
+6,10/14/2018,Sun,1:00 PM,New York Jets,Indianapolis Colts,42,34,0.674469054,0.67,0.63,0.492,1,1,1,1,0
+6,10/14/2018,Sun,1:00 PM,Oakland Raiders,Seattle Seahawks,3,27,0.562096596,0.33,0.3,0.34,0,0,1,1,1
+6,10/14/2018,Sun,1:00 PM,Washington Redskins,Carolina Panthers,23,17,0.336127788,0.45,0.61,0.55,1,0,0,1,1
+6,10/14/2018,Sun,4:05 PM,Denver Broncos,Los Angeles Rams,20,23,0.428606689,0.31,0.28,0.23,0,1,1,1,1
+6,10/14/2018,Sun,4:25 PM,Dallas Cowboys,Jacksonville Jaguars,40,7,0.485489577,0.53,0.4,0.561,1,0,1,0,1
+6,10/14/2018,Sun,4:25 PM,Tennessee Titans,Baltimore Ravens,0,21,0.477920741,0.53,0.43,0.426,0,1,0,1,1
+6,10/14/2018,Sun,8:20 PM,New England Patriots,Kansas City Chiefs,43,40,0.830252886,0.54,0.54,0.666,1,1,1,1,1
+6,10/15/2018,Mon,8:15 PM,Green Bay Packers,San Francisco 49ers,33,30,0.884425342,0.66,0.67,0.786,1,1,1,1,1
+7,10/18/2018,Thu,8:20 PM,Arizona Cardinals,Denver Broncos,10,45,0.661448896,0.61,0.39,0.476,0,0,0,1,1
+7,10/21/2018,Sun,1:00 PM,Chicago Bears,New England Patriots,31,38,0.336127788,0.4,0.37,0.508,0,1,1,1,0
+7,10/21/2018,Sun,1:00 PM,Indianapolis Colts,Buffalo Bills,37,5,0.497003049,0.48,0.57,0.764,1,0,0,1,1
+7,10/21/2018,Sun,1:00 PM,Jacksonville Jaguars,Houston Texans,7,20,0.61953938,0.72,0.61,0.607,0,0,0,0,0
+7,10/21/2018,Sun,1:00 PM,Kansas City Chiefs,Cincinnati Bengals,45,10,0.667136073,0.76,0.63,0.699,1,1,1,1,1
+7,10/21/2018,Sun,1:00 PM,Miami Dolphins,Detroit Lions,21,32,0.539189816,0.56,0.45,0.509,0,0,0,1,0
+7,10/21/2018,Sun,1:00 PM,New York Jets,Minnesota Vikings,17,37,0.336127788,0.44,0.47,0.441,0,1,1,1,1
+7,10/21/2018,Sun,1:00 PM,Philadelphia Eagles,Carolina Panthers,17,21,0.809611261,0.69,0.67,0.698,0,0,0,0,0
+7,10/21/2018,Sun,1:00 PM,Tampa Bay Buccaneers,Cleveland Browns,26,23,0.902846038,0.77,0.67,0.741,1,1,1,1,1
+7,10/21/2018,Sun,4:05 PM,Baltimore Ravens,New Orleans Saints,23,24,0.488773346,0.57,0.6,0.604,0,1,0,0,0
+7,10/21/2018,Sun,4:25 PM,Washington Redskins,Dallas Cowboys,20,17,0.467120886,0.53,0.53,0.478,1,0,1,1,0
+7,10/21/2018,Sun,8:20 PM,San Francisco 49ers,Los Angeles Rams,10,39,0.336127788,0.29,0.26,0.264,0,1,1,1,1
+7,10/21/2018,Sun,9:30 AM,Los Angeles Chargers,Tennessee Titans,20,19,0.697015643,0.62,0.61,0.719,1,1,1,1,1
+7,10/22/2018,Mon,8:15 PM,Atlanta Falcons,New York Giants,23,20,0.833969593,0.8,0.69,0.696,1,1,1,1,1
+8,10/25/2018,Thu,8:20 PM,Houston Texans,Miami Dolphins,42,23,0.496529371,0.6,0.75,0.751,1,0,1,1,1
+8,10/28/2018,Sun,1:00 PM,Carolina Panthers,Baltimore Ravens,36,21,0.565738976,0.57,0.47,0.476,1,1,1,0,0
+8,10/28/2018,Sun,1:00 PM,Chicago Bears,New York Jets,24,10,0.521144271,0.65,0.72,0.762,1,1,1,1,1
+8,10/28/2018,Sun,1:00 PM,Cincinnati Bengals,Tampa Bay Buccaneers,37,34,0.468589216,0.62,0.69,0.65,1,0,1,1,1
+8,10/28/2018,Sun,1:00 PM,Detroit Lions,Seattle Seahawks,14,28,0.810265183,0.57,0.53,0.422,0,0,0,0,1
+8,10/28/2018,Sun,1:00 PM,Kansas City Chiefs,Denver Broncos,30,23,0.776609838,0.82,0.74,0.784,1,1,1,1,1
+8,10/28/2018,Sun,1:00 PM,New York Giants,Washington Redskins,13,20,0.366145343,0.39,0.47,0.579,0,1,1,1,0
+8,10/28/2018,Sun,1:00 PM,Pittsburgh Steelers,Cleveland Browns,33,18,0.798925757,0.88,0.77,0.88,1,1,1,1,1
+8,10/28/2018,Sun,4:05 PM,Oakland Raiders,Indianapolis Colts,28,42,0.667750299,0.56,0.45,0.509,0,0,0,1,0
+8,10/28/2018,Sun,4:25 PM,Arizona Cardinals,San Francisco 49ers,18,15,0.307542413,0.58,0.67,0.444,1,0,1,1,0
+8,10/28/2018,Sun,4:25 PM,Los Angeles Rams,Green Bay Packers,29,27,0.870893836,0.79,0.75,0.798,1,1,1,1,1
+8,10/28/2018,Sun,8:20 PM,Minnesota Vikings,New Orleans Saints,20,30,0.70728296,0.55,0.6,0.56,0,0,0,0,0
+8,10/28/2018,Sun,9:30 AM,Jacksonville Jaguars,Philadelphia Eagles,18,24,0.336127788,0.33,0.42,0.371,0,1,1,1,1
+8,10/29/2018,Mon,8:15 PM,Buffalo Bills,New England Patriots,6,25,0.360089689,0.29,0.27,0.164,0,1,1,1,1
+9,11/01/2018,Thu,8:20 PM,San Francisco 49ers,Oakland Raiders,34,3,0.456749469,0.62,0.69,0.628,1,0,1,1,1
+9,11/04/2018,Sun,1:00 PM,Baltimore Ravens,Pittsburgh Steelers,16,23,0.455849797,0.54,0.55,0.583,0,1,0,0,0
+9,11/04/2018,Sun,1:00 PM,Buffalo Bills,Chicago Bears,9,41,0.628659189,0.46,0.42,0.202,0,0,1,1,1
+9,11/04/2018,Sun,1:00 PM,Carolina Panthers,Tampa Bay Buccaneers,42,28,0.419976801,0.76,0.67,0.803,1,0,1,1,1
+9,11/04/2018,Sun,1:00 PM,Cleveland Browns,Kansas City Chiefs,21,37,0.282898724,0.16,0.22,0.218,0,1,1,1,1
+9,11/04/2018,Sun,1:00 PM,Miami Dolphins,New York Jets,13,6,0.35665229,0.62,0.63,0.611,1,0,1,1,1
+9,11/04/2018,Sun,1:00 PM,Minnesota Vikings,Detroit Lions,24,9,0.684103787,0.68,0.67,0.732,1,1,1,1,1
+9,11/04/2018,Sun,1:00 PM,Washington Redskins,Atlanta Falcons,14,38,0.518816292,0.55,0.6,0.498,0,0,0,0,1
+9,11/04/2018,Sun,4:05 PM,Denver Broncos,Houston Texans,17,19,0.44622159,0.54,0.55,0.507,0,1,0,0,0
+9,11/04/2018,Sun,4:05 PM,Seattle Seahawks,Los Angeles Chargers,17,25,0.526342392,0.61,0.61,0.519,0,0,0,0,0
+9,11/04/2018,Sun,4:25 PM,New Orleans Saints,Los Angeles Rams,45,35,0.707261264,0.59,0.57,0.498,1,1,1,1,0
+9,11/04/2018,Sun,8:20 PM,New England Patriots,Green Bay Packers,31,17,0.706515551,0.81,0.69,0.682,1,1,1,1,1
+9,11/05/2018,Mon,8:15 PM,Dallas Cowboys,Tennessee Titans,14,28,0.72795105,0.66,0.61,0.751,0,0,0,0,0
+10,11/08/2018,Thu,8:20 PM,Pittsburgh Steelers,Carolina Panthers,52,21,0.855662227,0.61,0.57,0.66,1,1,1,1,1
+10,11/11/2018,Sun,1:00 PM,Chicago Bears,Detroit Lions,34,22,0.446986824,0.65,0.69,0.756,1,0,1,1,1
+10,11/11/2018,Sun,1:00 PM,Cincinnati Bengals,New Orleans Saints,14,51,0.455849856,0.36,0.34,0.468,0,1,1,1,1
+10,11/11/2018,Sun,1:00 PM,Cleveland Browns,Atlanta Falcons,28,16,0.282898724,0.22,0.37,0.316,1,0,0,0,0
+10,11/11/2018,Sun,1:00 PM,Green Bay Packers,Miami Dolphins,31,12,0.660701931,0.61,0.74,0.82,1,1,1,1,1
+10,11/11/2018,Sun,1:00 PM,Indianapolis Colts,Jacksonville Jaguars,29,26,0.645841897,0.56,0.63,0.678,1,1,1,1,1
+10,11/11/2018,Sun,1:00 PM,Kansas City Chiefs,Arizona Cardinals,26,14,0.833984852,0.88,0.84,0.938,1,1,1,1,1
+10,11/11/2018,Sun,1:00 PM,New York Jets,Buffalo Bills,10,41,0.361223876,0.63,0.77,0.718,0,1,0,0,0
+10,11/11/2018,Sun,1:00 PM,Tampa Bay Buccaneers,Washington Redskins,3,16,0.449848682,0.54,0.58,0.543,0,1,0,0,0
+10,11/11/2018,Sun,1:00 PM,Tennessee Titans,New England Patriots,34,10,0.455849856,0.37,0.28,0.373,1,0,0,0,0
+10,11/11/2018,Sun,4:05 PM,Oakland Raiders,Los Angeles Chargers,6,20,0.282898724,0.24,0.25,0.244,0,1,1,1,1
+10,11/11/2018,Sun,4:25 PM,Los Angeles Rams,Seattle Seahawks,36,31,0.654622078,0.69,0.69,0.769,1,1,1,1,1
+10,11/11/2018,Sun,8:20 PM,Philadelphia Eagles,Dallas Cowboys,20,27,0.776609838,0.74,0.67,0.736,0,0,0,0,0
+10,11/12/2018,Mon,8:15 PM,San Francisco 49ers,New York Giants,23,27,0.397668362,0.67,0.63,0.559,0,1,0,0,0
+11,11/15/2018,Thu,8:20 PM,Seattle Seahawks,Green Bay Packers,27,24,0.526342392,0.67,0.61,0.605,1,1,1,1,1
+11,11/18/2018,Sun,1:00 PM,Atlanta Falcons,Dallas Cowboys,19,22,0.814941466,0.62,0.64,0.594,0,0,0,0,0
+11,11/18/2018,Sun,1:00 PM,Baltimore Ravens,Cincinnati Bengals,24,21,0.537797034,0.67,0.6,0.802,1,1,1,1,1
+11,11/18/2018,Sun,1:00 PM,Chicago Bears,Minnesota Vikings,25,20,0.336127788,0.54,0.63,0.575,1,0,1,1,1
+11,11/18/2018,Sun,1:00 PM,Detroit Lions,Carolina Panthers,20,19,0.336127788,0.43,0.4,0.406,1,0,0,0,0
+11,11/18/2018,Sun,1:00 PM,Indianapolis Colts,Tennessee Titans,38,10,0.284676492,0.45,0.45,0.624,1,0,0,0,1
+11,11/18/2018,Sun,1:00 PM,New Orleans Saints,Philadelphia Eagles,48,7,0.657443702,0.74,0.79,0.741,1,1,1,1,1
+11,11/18/2018,Sun,1:00 PM,New York Giants,Tampa Bay Buccaneers,38,35,0.446512938,0.52,0.63,0.705,1,0,1,1,1
+11,11/18/2018,Sun,1:00 PM,Washington Redskins,Houston Texans,21,23,0.825831056,0.62,0.42,0.447,0,0,0,1,1
+11,11/18/2018,Sun,4:05 PM,Arizona Cardinals,Oakland Raiders,21,23,0.38001883,0.68,0.66,0.548,0,1,0,0,0
+11,11/18/2018,Sun,4:05 PM,Los Angeles Chargers,Denver Broncos,22,23,0.710192263,0.8,0.72,0.763,0,0,0,0,0
+11,11/18/2018,Sun,8:20 PM,Jacksonville Jaguars,Pittsburgh Steelers,16,20,0.336127788,0.32,0.23,0.355,0,1,1,1,1
+11,11/19/2018,Mon,8:15 PM,Los Angeles Rams,Kansas City Chiefs,54,51,0.769340873,0.54,0.53,0.635,1,1,1,1,1
+12,11/22/2018,Thu,12:30 PM,Detroit Lions,Chicago Bears,16,23,0.428568244,0.47,0.33,0.362,0,1,1,1,1
+12,11/22/2018,Thu,4:30 PM,Dallas Cowboys,Washington Redskins,31,23,0.844017327,0.65,0.74,0.742,1,1,1,1,1
+12,11/22/2018,Thu,8:20 PM,New Orleans Saints,Atlanta Falcons,31,17,0.859654725,0.81,0.77,0.802,1,1,1,1,1
+12,11/25/2018,Sun,1:00 PM,Baltimore Ravens,Oakland Raiders,34,17,0.709871948,0.83,0.8,0.869,1,1,1,1,1
+12,11/25/2018,Sun,1:00 PM,Buffalo Bills,Jacksonville Jaguars,24,21,0.594179749,0.56,0.47,0.517,1,1,1,0,1
+12,11/25/2018,Sun,1:00 PM,Carolina Panthers,Seattle Seahawks,27,30,0.810048878,0.62,0.53,0.595,0,0,0,0,0
+12,11/25/2018,Sun,1:00 PM,Cincinnati Bengals,Cleveland Browns,20,35,0.710220218,0.75,0.55,0.668,0,0,0,0,0
+12,11/25/2018,Sun,1:00 PM,Indianapolis Colts,Miami Dolphins,27,24,0.785458207,0.68,0.72,0.823,1,1,1,1,1
+12,11/25/2018,Sun,1:00 PM,New York Jets,New England Patriots,13,27,0.336127788,0.23,0.31,0.2,0,1,1,1,1
+12,11/25/2018,Sun,1:00 PM,Philadelphia Eagles,New York Giants,25,22,0.798925757,0.8,0.7,0.678,1,1,1,1,1
+12,11/25/2018,Sun,1:00 PM,Tampa Bay Buccaneers,San Francisco 49ers,27,9,0.524047911,0.63,0.57,0.655,1,1,1,1,1
+12,11/25/2018,Sun,4:05 PM,Los Angeles Chargers,Arizona Cardinals,45,10,0.752600729,0.84,0.77,0.93,1,1,1,1,1
+12,11/25/2018,Sun,4:25 PM,Denver Broncos,Pittsburgh Steelers,24,17,0.428606689,0.3,0.36,0.397,1,0,0,0,0
+12,11/25/2018,Sun,8:20 PM,Minnesota Vikings,Green Bay Packers,24,17,0.75113976,0.71,0.66,0.563,1,1,1,1,1
+12,11/26/2018,Mon,8:15 PM,Houston Texans,Tennessee Titans,34,17,0.816673577,0.58,0.64,0.742,1,1,1,1,1
+13,11/29/2018,Thu,8:20 PM,Dallas Cowboys,New Orleans Saints,13,10,0.441127628,0.36,0.3,0.379,1,0,0,0,0
+13,12/02/2018,Sun,1:00 PM,Atlanta Falcons,Baltimore Ravens,16,26,0.49506253,0.53,0.43,0.565,0,1,0,1,0
+13,12/02/2018,Sun,1:00 PM,Cincinnati Bengals,Denver Broncos,10,24,0.407623589,0.52,0.45,0.471,0,1,0,1,1
+13,12/02/2018,Sun,1:00 PM,Detroit Lions,Los Angeles Rams,16,30,0.455849856,0.32,0.26,0.246,0,1,1,1,1
+13,12/02/2018,Sun,1:00 PM,Green Bay Packers,Arizona Cardinals,17,20,0.716109514,0.73,0.75,0.92,0,0,0,0,0
+13,12/02/2018,Sun,1:00 PM,Houston Texans,Cleveland Browns,29,13,0.709253073,0.77,0.64,0.798,1,1,1,1,1
+13,12/02/2018,Sun,1:00 PM,Jacksonville Jaguars,Indianapolis Colts,6,0,0.451401263,0.49,0.34,0.425,1,0,0,0,0
+13,12/02/2018,Sun,1:00 PM,Miami Dolphins,Buffalo Bills,21,17,0.58888495,0.58,0.66,0.575,1,1,1,1,1
+13,12/02/2018,Sun,1:00 PM,New York Giants,Chicago Bears,30,27,0.282898724,0.31,0.34,0.458,1,0,0,0,0
+13,12/02/2018,Sun,1:00 PM,Pittsburgh Steelers,Los Angeles Chargers,30,33,0.639294624,0.62,0.63,0.589,0,0,0,0,0
+13,12/02/2018,Sun,1:00 PM,Tampa Bay Buccaneers,Carolina Panthers,24,17,0.38613978,0.41,0.36,0.499,1,0,0,0,0
+13,12/02/2018,Sun,4:05 PM,Oakland Raiders,Kansas City Chiefs,33,40,0.336127788,0.17,0.21,0.161,0,1,1,1,1
+13,12/02/2018,Sun,4:05 PM,Tennessee Titans,New York Jets,26,22,0.644009233,0.78,0.69,0.789,1,1,1,1,1
+13,12/02/2018,Sun,4:25 PM,New England Patriots,Minnesota Vikings,24,10,0.651887655,0.67,0.67,0.676,1,1,1,1,1
+13,12/02/2018,Sun,8:20 PM,Seattle Seahawks,San Francisco 49ers,43,16,0.798925757,0.83,0.75,0.814,1,1,1,1,1
+13,12/03/2018,Mon,8:15 PM,Philadelphia Eagles,Washington Redskins,28,13,0.776609838,0.69,0.64,0.677,1,1,1,1,1
+14,12/06/2018,Thu,8:20 PM,Tennessee Titans,Jacksonville Jaguars,30,9,0.664421082,0.66,0.63,0.634,1,1,1,1,1
+14,12/09/2018,Sun,1:00 PM,Buffalo Bills,New York Jets,23,27,0.397257745,0.7,0.58,0.715,0,1,0,0,0
+14,12/09/2018,Sun,1:00 PM,Chicago Bears,Los Angeles Rams,15,6,0.455849856,0.44,0.51,0.432,1,0,0,1,0
+14,12/09/2018,Sun,1:00 PM,Cleveland Browns,Carolina Panthers,26,20,0.282898724,0.38,0.45,0.399,1,0,0,0,0
+14,12/09/2018,Sun,1:00 PM,Green Bay Packers,Atlanta Falcons,34,20,0.377987891,0.53,0.66,0.641,1,0,1,1,1
+14,12/09/2018,Sun,1:00 PM,Houston Texans,Indianapolis Colts,21,24,0.694713771,0.68,0.63,0.64,0,0,0,0,0
+14,12/09/2018,Sun,1:00 PM,Kansas City Chiefs,Baltimore Ravens,27,24,0.619617105,0.71,0.72,0.752,1,1,1,1,1
+14,12/09/2018,Sun,1:00 PM,Miami Dolphins,New England Patriots,34,33,0.386747003,0.28,0.28,0.241,1,0,0,0,0
+14,12/09/2018,Sun,1:00 PM,Tampa Bay Buccaneers,New Orleans Saints,14,28,0.302207917,0.26,0.27,0.256,0,1,1,1,1
+14,12/09/2018,Sun,1:00 PM,Washington Redskins,New York Giants,16,40,0.98173815,0.69,0.53,0.533,0,0,0,0,0
+14,12/09/2018,Sun,4:05 PM,Los Angeles Chargers,Cincinnati Bengals,26,21,0.775171816,0.84,0.8,0.903,1,1,1,1,1
+14,12/09/2018,Sun,4:05 PM,San Francisco 49ers,Denver Broncos,20,14,0.366145343,0.37,0.28,0.402,1,0,0,0,0
+14,12/09/2018,Sun,4:25 PM,Arizona Cardinals,Detroit Lions,3,17,0.499581993,0.51,0.45,0.438,0,1,0,1,1
+14,12/09/2018,Sun,4:25 PM,Dallas Cowboys,Philadelphia Eagles,29,23,0.488773346,0.59,0.63,0.672,1,0,1,1,1
+14,12/09/2018,Sun,8:20 PM,Oakland Raiders,Pittsburgh Steelers,24,21,0.336127788,0.22,0.25,0.263,1,0,0,0,0
+14,12/10/2018,Mon,8:15 PM,Seattle Seahawks,Minnesota Vikings,21,7,0.711187363,0.62,0.57,0.655,1,1,1,1,1
+15,12/13/2018,Thu,8:20 PM,Kansas City Chiefs,Los Angeles Chargers,28,29,0.657222867,0.66,0.6,0.633,0,0,0,0,0
+15,12/15/2018,Sat,4:30 PM,Denver Broncos,Cleveland Browns,16,17,0.378783196,0.69,0.57,0.771,0,1,0,0,0
+15,12/15/2018,Sat,4:30 PM,New York Jets,Houston Texans,22,29,0.282898724,0.36,0.27,0.305,0,1,1,1,1
+15,12/16/2018,Sun,1:00 PM,Atlanta Falcons,Arizona Cardinals,40,14,0.716109514,0.73,0.7,0.89,1,1,1,1,1
+15,12/16/2018,Sun,1:00 PM,Baltimore Ravens,Tampa Bay Buccaneers,20,12,0.423127562,0.76,0.77,0.7,1,0,1,1,1
+15,12/16/2018,Sun,1:00 PM,Buffalo Bills,Detroit Lions,14,13,0.4837403,0.49,0.53,0.55,1,0,0,1,1
+15,12/16/2018,Sun,1:00 PM,Chicago Bears,Green Bay Packers,24,17,0.422477603,0.74,0.66,0.627,1,0,1,1,1
+15,12/16/2018,Sun,1:00 PM,Cincinnati Bengals,Oakland Raiders,30,16,0.608602166,0.66,0.57,0.68,1,1,1,1,1
+15,12/16/2018,Sun,1:00 PM,Indianapolis Colts,Dallas Cowboys,23,0,0.30221191,0.47,0.6,0.601,1,0,0,1,1
+15,12/16/2018,Sun,1:00 PM,Jacksonville Jaguars,Washington Redskins,13,16,0.550280809,0.6,0.73,0.681,0,0,0,0,0
+15,12/16/2018,Sun,1:00 PM,Minnesota Vikings,Miami Dolphins,41,17,0.833984852,0.72,0.69,0.825,1,1,1,1,1
+15,12/16/2018,Sun,1:00 PM,New York Giants,Tennessee Titans,0,17,0.494627178,0.49,0.53,0.585,0,1,1,0,0
+15,12/16/2018,Sun,4:05 PM,San Francisco 49ers,Seattle Seahawks,26,23,0.336127788,0.29,0.25,0.34,1,0,0,0,0
+15,12/16/2018,Sun,4:25 PM,Pittsburgh Steelers,New England Patriots,17,10,0.406313151,0.51,0.45,0.597,1,0,1,0,1
+15,12/16/2018,Sun,8:20 PM,Los Angeles Rams,Philadelphia Eagles,23,30,0.871495545,0.7,0.72,0.783,0,0,0,0,0
+15,12/17/2018,Mon,8:15 PM,Carolina Panthers,New Orleans Saints,9,12,0.40588522,0.31,0.22,0.34,0,1,1,1,1
+16,12/22/2018,Sat,4:30 PM,Tennessee Titans,Washington Redskins,25,16,0.809020698,0.73,0.73,0.757,1,1,1,1,1
+16,12/22/2018,Sat,8:20 PM,Los Angeles Chargers,Baltimore Ravens,10,22,0.654586911,0.66,0.63,0.795,0,0,0,0,0
+16,12/23/2018,Sun,1:00 PM,Carolina Panthers,Atlanta Falcons,10,24,0.511425018,0.62,0.57,0.595,0,0,0,0,0
+16,12/23/2018,Sun,1:00 PM,Cleveland Browns,Cincinnati Bengals,26,18,0.409733027,0.6,0.6,0.602,1,0,1,1,1
+16,12/23/2018,Sun,1:00 PM,Dallas Cowboys,Tampa Bay Buccaneers,27,20,0.811692953,0.75,0.7,0.69,1,1,1,1,1
+16,12/23/2018,Sun,1:00 PM,Detroit Lions,Minnesota Vikings,9,27,0.336127788,0.45,0.37,0.405,0,1,1,1,1
+16,12/23/2018,Sun,1:00 PM,Indianapolis Colts,New York Giants,28,27,0.696983278,0.74,0.79,0.735,1,1,1,1,1
+16,12/23/2018,Sun,1:00 PM,Miami Dolphins,Jacksonville Jaguars,7,17,0.810084343,0.61,0.64,0.507,0,0,0,0,0
+16,12/23/2018,Sun,1:00 PM,New England Patriots,Buffalo Bills,24,12,0.833984852,0.84,0.78,0.86,1,1,1,1,1
+16,12/23/2018,Sun,1:00 PM,New York Jets,Green Bay Packers,38,44,0.282898724,0.43,0.52,0.317,0,1,1,0,1
+16,12/23/2018,Sun,1:00 PM,Philadelphia Eagles,Houston Texans,32,30,0.718134344,0.66,0.34,0.553,1,1,1,0,1
+16,12/23/2018,Sun,4:05 PM,Arizona Cardinals,Los Angeles Rams,9,31,0.327657491,0.23,0.26,0.112,0,1,1,1,1
+16,12/23/2018,Sun,4:05 PM,San Francisco 49ers,Chicago Bears,9,14,0.366806328,0.32,0.37,0.35,0,1,1,1,1
+16,12/23/2018,Sun,4:25 PM,New Orleans Saints,Pittsburgh Steelers,31,28,0.809611261,0.74,0.64,0.709,1,1,1,1,1
+16,12/23/2018,Sun,8:20 PM,Seattle Seahawks,Kansas City Chiefs,38,31,0.518816292,0.46,0.42,0.479,1,1,0,0,0
+16,12/24/2018,Mon,8:15 PM,Oakland Raiders,Denver Broncos,27,14,0.327703178,0.39,0.39,0.39,1,0,0,0,0
+17,12/30/2018,Sun,1:00 PM,Baltimore Ravens,Cleveland Browns,26,24,0.737878382,0.81,0.66,0.79,1,1,1,1,1
+17,12/30/2018,Sun,1:00 PM,Buffalo Bills,Miami Dolphins,42,17,0.675661206,0.59,0.6,0.673,1,1,1,1,1
+17,12/30/2018,Sun,1:00 PM,Green Bay Packers,Detroit Lions,0,31,0.524047911,0.65,0.74,0.806,0,0,0,0,0
+17,12/30/2018,Sun,1:00 PM,Houston Texans,Jacksonville Jaguars,20,3,0.770095706,0.71,0.74,0.767,1,1,1,1,1
+17,12/30/2018,Sun,1:00 PM,Kansas City Chiefs,Oakland Raiders,35,3,0.833984852,0.88,0.79,0.917,1,1,1,1,1
+17,12/30/2018,Sun,1:00 PM,Minnesota Vikings,Chicago Bears,10,24,0.654622018,0.56,0.64,0.576,0,0,0,0,0
+17,12/30/2018,Sun,1:00 PM,New England Patriots,New York Jets,38,3,0.833984852,0.89,0.77,0.889,1,1,1,1,1
+17,12/30/2018,Sun,1:00 PM,New Orleans Saints,Carolina Panthers,14,33,0.776609838,0.87,0.58,0.889,0,0,0,0,0
+17,12/30/2018,Sun,1:00 PM,New York Giants,Dallas Cowboys,35,36,0.336127788,0.38,0.66,0.527,0,1,1,0,0
+17,12/30/2018,Sun,1:00 PM,Pittsburgh Steelers,Cincinnati Bengals,16,13,0.833984852,0.83,0.75,0.864,1,1,1,1,1
+17,12/30/2018,Sun,1:00 PM,Tampa Bay Buccaneers,Atlanta Falcons,32,34,0.302207917,0.46,0.51,0.475,0,1,1,0,1
+17,12/30/2018,Sun,1:00 PM,Tennessee Titans,Indianapolis Colts,17,33,0.503009379,0.62,0.43,0.482,0,0,0,1,1
+17,12/30/2018,Sun,1:00 PM,Washington Redskins,Philadelphia Eagles,0,24,0.336127788,0.35,0.31,0.425,0,1,1,1,1
+17,12/30/2018,Sun,4:25 PM,Denver Broncos,Los Angeles Chargers,9,23,0.336127788,0.36,0.28,0.389,0,1,1,1,1
+17,12/30/2018,Sun,4:25 PM,Los Angeles Rams,San Francisco 49ers,48,32,0.833984852,0.85,0.75,0.895,1,1,1,1,1
+17,12/30/2018,Sun,4:25 PM,Seattle Seahawks,Arizona Cardinals,27,24,0.798925757,0.88,0.61,0.943,1,1,1,1,1
