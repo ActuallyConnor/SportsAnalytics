@@ -1,0 +1,4 @@
+class Game:
+    teams = {"Arizona Cardinals" : "ARI", "Atlanta Falcons" : "ATL", "Baltimore Ravens" : "BAL", "Buffalo Bills" : "BUF", "Carolina Panthers" : "CAR", "Chicago Bears" : "CHI", "Cincinnati Bengals" : "CIN", "Cleveland Browns" : "CLE", "Dallas Cowboys" : "DAL", "Denver Broncos" : "DEN", "Detroit Liions" : "DET", "Green Bay Packers" : "GB", "Houston Texas", "Indianapolis Colts", "Jacksonville Jaguars", "Kansas City Chiefs", "Los Angeles Chargers", "Los Angeles Rams", "Miami Dolphins", "Minnesota Vikings", "New England Patriots", "New Orleans Saints", "New York Giants", "New York Jets", "Oakland Raiders", "Philadelphia Eagles", "Pittsburgh Steelers", "San Francisco 49ers", "Seattle Seahawks", "Tampa Bay Buccaneers", "Tennessee Titans", "Washington Redskins"}
+    def __init(self, home, away):
+
