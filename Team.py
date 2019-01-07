@@ -5,8 +5,9 @@ class Team:
     elo_correct = 0
     bing_correct = 0
     fpi_correct = 0
-    def __init__(self, name, amos_correct, elo_correct, bing_correct, fpi_correct):
+    def __init__(self, name, abbr):
         self.name = name
+        self.abbr = abbr
 
     def add_win(self):
         self.record_win += 1
