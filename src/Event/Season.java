@@ -283,6 +283,7 @@ public class Season {
 		games[255] = new Game (17, "Seattle Seahawks", -860, "Arizona Cardinals", 675, 0.798925757, 0.88, 0.61, 0.943, true);
 	}
 	
+	// code for review
 	public void deductBets() {
 		for (int i=0; i < games.length; i++ ) {
 			// AMOS
@@ -347,43 +348,84 @@ public class Season {
 		}
 	}
 	
+	// code for review
 	public void applyWinnings() {
 		for (int i = 0; i < games.length; i++) {
 			// AMOS
 			if (games[i].getAmos() > 50 && games[i].getHomeWin() == true) { // if Amos predicts home team and home team wins
-				
+				if (games[i].getHomeMoneyline() > 0) { // if homeMoneyline is greater than 0
+					amosTotal += games[i].getHomeMoneyline(); // add homeMoneyline from amosTotal
+					amosTotal += 100; // add 100 for winnings
+				} else { // if homeMoneyline is less than 0
+					amosTotal -= games[i].getHomeMoneyline(); // add homeMoneyline to amos total (positive minus a negative is addition)
+					amosTotal += 100; // add 100 for winnings
+				}
 			} else if (games[i].getAmos() < 50 && games[i].getHomeWin() == false) { // if Amos predicts away team and away team wins
-				
-			} else { // if Amos is wrong
-				
-			}
+				if (games[i].getAwayMoneyline() > 0) { // if awayMoneyline is greater than 0
+					amosTotal += games[i].getAwayMoneyline(); // add awayMoneyline from amosTotal
+					amosTotal += 100; // add 100 for winnings
+				} else { // if awayMoneyline is less than 0
+					amosTotal -= games[i].getAwayMoneyline(); // add awayMoneyline to amos total (positive minus a negative is subtraction)
+					amosTotal += 100; // add 100 for winnings
+				}
+			} // no else, money already subtracted
 			
 			// ELO
 			if (games[i].getElo() > 50 && games[i].getHomeWin() == true) { // if elo predicts home team and home team wins
-				
+				if (games[i].getHomeMoneyline() > 0) { // if homeMoneyline is greater than 0
+					eloTotal += games[i].getHomeMoneyline(); // add homeMoneyline from eloTotal
+					eloTotal += 100; // add 100 for winnings
+				} else { // if homeMoneyline is less than 0
+					eloTotal -= games[i].getHomeMoneyline(); // add homeMoneyline to elo total (positive minus a negative is addition)
+					eloTotal += 100; // add 100 for winnings
+				}
 			} else if (games[i].getElo() < 50 && games[i].getHomeWin() == false) { // if elo predicts away team and away team wins
-				
-			} else { // if elo is wrong
-				
-			}
+				if (games[i].getAwayMoneyline() > 0) { // if awayMoneyline is greater than 0
+					eloTotal += games[i].getAwayMoneyline(); // add awayMoneyline from eloTotal
+					eloTotal += 100; // add 100 for winnings
+				} else { // if awayMoneyline is less than 0
+					eloTotal -= games[i].getAwayMoneyline(); // add awayMoneyline to elo total (positive minus a negative is subtraction)
+					eloTotal += 100; // add 100 for winnings
+				}
+			} // no else, money already subtracted
 			
 			// BING
-			if (games[i].getBing() > 50 && games[i].getHomeWin() == true) { // if Bing predicts home team and home team wins
-				
-			} else if (games[i].getBing() < 50 && games[i].getHomeWin() == false) { // if Bing predicts away team and away team wins
-				
-			} else { // if Bing is wrong
-				
-			}
+			if (games[i].getBing() > 50 && games[i].getHomeWin() == true) { // if bing predicts home team and home team wins
+				if (games[i].getHomeMoneyline() > 0) { // if homeMoneyline is greater than 0
+					bingTotal += games[i].getHomeMoneyline(); // add homeMoneyline from bingTotal
+					bingTotal += 100; // add 100 for winnings
+				} else { // if homeMoneyline is less than 0
+					bingTotal -= games[i].getHomeMoneyline(); // add homeMoneyline to bing total (positive minus a negative is addition)
+					bingTotal += 100; // add 100 for winnings
+				}
+			} else if (games[i].getBing() < 50 && games[i].getHomeWin() == false) { // if bing predicts away team and away team wins
+				if (games[i].getAwayMoneyline() > 0) { // if awayMoneyline is greater than 0
+					bingTotal += games[i].getAwayMoneyline(); // add awayMoneyline from bingTotal
+					bingTotal += 100; // add 100 for winnings
+				} else { // if awayMoneyline is less than 0
+					bingTotal -= games[i].getAwayMoneyline(); // add awayMoneyline to bing total (positive minus a negative is subtraction)
+					bingTotal += 100; // add 100 for winnings
+				}
+			} // no else, money already subtracted
 			
 			// FPI
 			if (games[i].getFpi() > 50 && games[i].getHomeWin() == true) { // if fpi predicts home team and home team wins
-				
+				if (games[i].getHomeMoneyline() > 0) { // if homeMoneyline is greater than 0
+					fpiTotal += games[i].getHomeMoneyline(); // add homeMoneyline from fpiTotal
+					fpiTotal += 100; // add 100 for winnings
+				} else { // if homeMoneyline is less than 0
+					fpiTotal -= games[i].getHomeMoneyline(); // add homeMoneyline to fpi total (positive minus a negative is addition)
+					fpiTotal += 100; // add 100 for winnings
+				}
 			} else if (games[i].getFpi() < 50 && games[i].getHomeWin() == false) { // if fpi predicts away team and away team wins
-				
-			} else { // if fpi is wrong
-				
-			}
+				if (games[i].getAwayMoneyline() > 0) { // if awayMoneyline is greater than 0
+					fpiTotal += games[i].getAwayMoneyline(); // add awayMoneyline from fpiTotal
+					fpiTotal += 100; // add 100 for winnings
+				} else { // if awayMoneyline is less than 0
+					fpiTotal -= games[i].getAwayMoneyline(); // add awayMoneyline to fpi total (positive minus a negative is subtraction)
+					fpiTotal += 100; // add 100 for winnings
+				}
+			} // no else, money already subtracted
 		}
 	}
 }
