@@ -428,4 +428,115 @@ public class Season {
 			} // no else, money already subtracted
 		}
 	}
+	
+	public String percBracket() {
+		int a1Count = 0;
+		int a2Count = 0;
+		int a3Count = 0;
+		int a4Count = 0;
+		int aTotalCount = 0;
+		
+		int e1Count = 0;
+		int e2Count = 0;
+		int e3Count = 0;
+		int e4Count = 0;
+		int eTotalCount = 0;
+		
+		int b1Count = 0;
+		int b2Count = 0;
+		int b3Count = 0;
+		int b4Count = 0;
+		int bTotalCount = 0;
+		
+		int f1Count = 0;
+		int f2Count = 0;
+		int f3Count = 0;
+		int f4Count = 0;
+		int fTotalCount = 0;
+		
+		for (int i=0; i < games.length; i++) {
+			// AMOS
+			// 51-59
+			if (games[i].getAmos() > 50 && games[i].getAmos() < 60 && games[i].getHomeWin() == true) {
+				a1Count++;
+			}
+			// 60-69
+			if (games[i].getAmos() >= 60 && games[i].getAmos() < 70 && games[i].getHomeWin() == true) {
+				a2Count++;
+			}
+			// 70-79
+			if (games[i].getAmos() >= 70 && games[i].getAmos() < 80 && games[i].getHomeWin() == true) {
+				a3Count++;
+			}
+			// 80-100
+			if (games[i].getAmos() >= 80 && games[i].getAmos() < 60 && games[i].getHomeWin() == true) {
+				a4Count++;
+			}
+			
+			// ELO
+			// 51-59
+			if (games[i].getElo() > 50 && games[i].getElo() < 60 && games[i].getHomeWin() == true) {
+				e1Count++;
+			}
+			// 60-69
+			if (games[i].getElo() >= 60 && games[i].getElo() < 70 && games[i].getHomeWin() == true) {
+				e2Count++;
+			}
+			// 70-79
+			if (games[i].getElo() >= 70 && games[i].getElo() < 80 && games[i].getHomeWin() == true) {
+				e3Count++;
+			}
+			// 80-100
+			if (games[i].getElo() >= 80 && games[i].getElo() < 60 && games[i].getHomeWin() == true) {
+				e4Count++;
+			}
+			
+			// BING
+			// 51-59
+			if (games[i].getBing() > 50 && games[i].getBing() < 60 && games[i].getHomeWin() == true) {
+				b1Count++;
+			}
+			// 60-69
+			if (games[i].getBing() >= 60 && games[i].getBing() < 70 && games[i].getHomeWin() == true) {
+				b2Count++;
+			}
+			// 70-79
+			if (games[i].getBing() >= 70 && games[i].getBing() < 80 && games[i].getHomeWin() == true) {
+				b3Count++;
+			}
+			// 80-100
+			if (games[i].getBing() >= 80 && games[i].getBing() < 60 && games[i].getHomeWin() == true) {
+				b4Count++;
+			}
+			
+			// FPI
+			// 51-59
+			if (games[i].getFpi() > 50 && games[i].getFpi() < 60 && games[i].getHomeWin() == true) {
+				f1Count++;
+			}
+			// 60-69
+			if (games[i].getFpi() >= 60 && games[i].getFpi() < 70 && games[i].getHomeWin() == true) {
+				f2Count++;
+			}
+			// 70-79
+			if (games[i].getFpi() >= 70 && games[i].getFpi() < 80 && games[i].getHomeWin() == true) {
+				f3Count++;
+			}
+			// 80-100
+			if (games[i].getFpi() >= 80 && games[i].getFpi() < 60 && games[i].getHomeWin() == true) {
+				f4Count++;
+			}
+		}
+		aTotalCount = a1Count + a2Count + a3Count + a4Count; // Ensures that this tallies up to the correct amount of wins that Amos predicted (for accuracy)
+		eTotalCount = e1Count + e2Count + e3Count + e4Count; // Ensures that this tallies up to the correct amount of wins that Elo predicted (for accuracy)
+		bTotalCount = b1Count + b2Count + b3Count + b4Count; // Ensures that this tallies up to the correct amount of wins that Bing predicted (for accuracy)
+		fTotalCount = f1Count + f2Count + f3Count + f4Count; // Ensures that this tallies up to the correct amount of wins that Fpi predicted (for accuracy)
+		
+		String aDisp = "Amos: \n51-59: " + a1Count + "\n60-69: " + a2Count + "\n70-79: " + a3Count + "\n80-100: " + a4Count + "\nTotal: " + aTotalCount;
+		String eDisp = "Elo: \n51-59: " + e1Count + "\n60-69: " + e2Count + "\n70-79: " + e3Count + "\n80-100: " + e4Count + "\nTotal: " + eTotalCount;
+		String bDisp = "Bing: \n51-59: " + b1Count + "\n60-69: " + b2Count + "\n70-79: " + b3Count + "\n80-100: " + b4Count + "\nTotal: " + bTotalCount;
+		String fDisp = "FPI: \n51-59: " + f1Count + "\n60-69: " + f2Count + "\n70-79: " + f3Count + "\n80-100: " + f4Count + "\nTotal: " + fTotalCount;
+		
+		return aDisp + "\n" + eDisp + "\n" + bDisp + "\n" + fDisp;
+	}
 }
