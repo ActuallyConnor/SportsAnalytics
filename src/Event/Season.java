@@ -175,7 +175,7 @@ public class Season {
 		games[153] = new Game (11, "Indianapolis Colts", -120, "Tennessee Titans", 110, 0.284676492, 0.45, 0.45, 0.624, true);
 		games[154] = new Game (11, "New Orleans Saints", -300, "Philadelphia Eagles", 270, 0.657443702, 0.74, 0.79, 0.741, true);
 		games[155] = new Game (11, "New York Giants", -163, "Tampa Bay Buccaneers", 153, 0.446512938, 0.52, 0.63, 0.705, true);
-		games[156] = new Game (11, "Washington Redskins", 147, "Houston Texans", 157, 0.825831056, 0.62, 0.42, 0.447, false);
+		games[156] = new Game (11, "Washington Redskins", 147, "Houston Texans", 157 /*-157*/, 0.825831056, 0.62, 0.42, 0.447, false);
 		games[157] = new Game (11, "Arizona Cardinals", -200, "Oakland Raiders", 185, 0.38001883, 0.68, 0.66, 0.548, false);
 		games[158] = new Game (11, "Los Angeles Chargers", -310, "Denver Broncos", 280, 0.710192263, 0.8, 0.72, 0.763, false);
 		games[159] = new Game (11, "Jacksonville Jaguars", 180, "Pittsburgh Steelers", -195, 0.336127788, 0.32, 0.23, 0.355, false);
@@ -214,7 +214,7 @@ public class Season {
 		games[190] = new Game (13, "Seattle Seahawks", -440, "San Francisco 49ers", 390, 0.798925757, 0.83, 0.75, 0.814, true);
 		games[191] = new Game (13, "Philadelphia Eagles", -240, "Washington Redskins", 220, 0.776609838, 0.69, 0.64, 0.677, true);
 		// Week 14
-		games[192] = new Game (14, "Tennessee Titans", -236, "Jacksonville Jaguars", 215, 0.664421082, 0.66, 0.63, 0.634, true);
+		games[192] = new Game (14, "Tennessee Titans", -236 /*235*/, "Jacksonville Jaguars", 215, 0.664421082, 0.66, 0.63, 0.634, true);
 		games[193] = new Game (14, "Buffalo Bills", -205, "New York Jets", 188, 0.397257745, 0.7, 0.58, 0.715, false);
 		games[194] = new Game (14, "Chicago Bears", 137, "Los Angeles Rams", -147, 0.455849856, 0.44, 0.51, 0.432, true);
 		games[195] = new Game (14, "Cleveland Browns", -105, "Carolina Panthers", -105, 0.282898724, 0.38, 0.45, 0.399, true);
@@ -284,7 +284,7 @@ public class Season {
 	}
 	
 	// code for review
-	public String deductBets() {
+	public void deductBets() {
 		for (int i=0; i < games.length; i++ ) {
 			// AMOS
 			if (games[i].getAmos() > 50) { // if Amos predicts home to win
@@ -346,11 +346,10 @@ public class Season {
 				}
 			}
 		}
-		return amosTotal + " " + eloTotal + " " + bingTotal + " " + fpiTotal;
 	}
 	
 	// code for review
-	public String applyWinnings() {
+	public void applyWinnings() {
 		for (int i = 0; i < games.length; i++) {
 			// AMOS
 			if (games[i].getAmos() > 50 && games[i].getHomeWin() == true) { // if Amos predicts home team and home team wins
@@ -428,10 +427,8 @@ public class Season {
 				}
 			} // no else, money already subtracted
 		}
-		return amosTotal + " " + eloTotal + " " + bingTotal + " " + fpiTotal;
 	}
 	
-	// Code for review
 	public String percBracket() {
 		int a1Count = 0;
 		int a2Count = 0;
