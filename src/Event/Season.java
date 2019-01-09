@@ -284,7 +284,7 @@ public class Season {
 	}
 	
 	// code for review
-	public void deductBets() {
+	public String deductBets() {
 		for (int i=0; i < games.length; i++ ) {
 			// AMOS
 			if (games[i].getAmos() > 50) { // if Amos predicts home to win
@@ -346,10 +346,11 @@ public class Season {
 				}
 			}
 		}
+		return amosTotal + " " + eloTotal + " " + bingTotal + " " + fpiTotal;
 	}
 	
 	// code for review
-	public void applyWinnings() {
+	public String applyWinnings() {
 		for (int i = 0; i < games.length; i++) {
 			// AMOS
 			if (games[i].getAmos() > 50 && games[i].getHomeWin() == true) { // if Amos predicts home team and home team wins
@@ -427,8 +428,10 @@ public class Season {
 				}
 			} // no else, money already subtracted
 		}
+		return amosTotal + " " + eloTotal + " " + bingTotal + " " + fpiTotal;
 	}
 	
+	// Code for review
 	public String percBracket() {
 		int a1Count = 0;
 		int a2Count = 0;
