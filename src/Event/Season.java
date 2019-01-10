@@ -11,7 +11,7 @@ public class Season {
 		// Week 1
 		games[0] = new Game (1, "Philadelphia Eagles", -105, "Atlanta Falcons", -105, 0.692196488, 0.65, 0.53, 0.586, true);
 		games[1] = new Game (1, "Baltimore Ravens", -340, "Buffalo Bills", 310, 0.725144863, 0.64, 0.66, 0.837, true);
-		games[2] = new Game (1, "Cleveland Browns", 160, "Pittsburgh Steelers", -170, 0.315359563, 0.21, 0.27, 0.347, false);
+		games[2] = new Game (1, "Cleveland Browns", 160, "Pittsburgh Steelers", -170, 0.315359563, 0.21, 0.27, 0.347, false); games[2].setTie(true); // causing issues cause of tie
 		games[3] = new Game (1, "Indianapolis Colts", 102, "Cincinnati Bengals", -112, 0.376611531, 0.499, 0.61, 0.614, false);
 		games[4] = new Game (1, "Miami Dolphins", -108, "Tennessee Titans", -102, 0.703173816, 0.53, 0.42, 0.492, true);
 		games[5] = new Game (1, "Minnesota Vikings", -260, "San Francisco 49ers", 240, 0.69011724, 0.76, 0.61, 0.697, true);
@@ -29,7 +29,7 @@ public class Season {
 		games[16] = new Game (2, "Cincinnati Bengals", -106, "Baltimore Ravens", -104, 0.724119067, 0.501, 0.6, 0.438, true);
 		games[17] = new Game (2, "Atlanta Falcons", -234, "Carolina Panthers", 209, 0.694606781, 0.62, 0.66, 0.652, true);
 		games[18] = new Game (2, "Buffalo Bills", 270, "Los Angeles Chargers", -307, 0.513682663, 0.53, 0.3, 0.244, false);
-		games[19] = new Game (2, "Green Bay Packers", 109, "Minnesota Vikings", -120, 0.302207798, 0.4, 0.47, 0.596, false);
+		games[19] = new Game (2, "Green Bay Packers", 109, "Minnesota Vikings", -120, 0.302207798, 0.4, 0.47, 0.596, false); games[19].setTie(true); // causing issues cause of tie
 		games[20] = new Game (2, "New Orleans Saints", -439, "Cleveland Browns", 376, 0.779422343, 0.85, 0.72, 0.744, true);
 		games[21] = new Game (2, "New York Jets", -161, "Miami Dolphins", 145, 0.755173981, 0.61, 0.53, 0.621, false);
 		games[22] = new Game (2, "Pittsburgh Steelers", -202, "Kansas City Chiefs", 181, 0.826536953, 0.58, 0.61, 0.646, false);
@@ -101,7 +101,7 @@ public class Season {
 		games[84] = new Game (6, "Minnesota Vikings", -420, "Arizona Cardinals", 375, 0.773922443, 0.74, 0.78, 0.844, true);
 		games[85] = new Game (6, "New York Jets", -135, "Indianapolis Colts", 125, 0.674469054, 0.67, 0.63, 0.492, true);
 		games[86] = new Game (6, "Oakland Raiders", 135, "Seattle Seahawks", -145, 0.562096596, 0.33, 0.3, 0.34, false);
-		games[87] = new Game (6, "Washington Redskins", 102, "Carolina Panthers", -112, 0.336127788, 0.45, 0.61, 0.55, false);
+		games[87] = new Game (6, "Washington Redskins", 102, "Carolina Panthers", -112, 0.336127788, 0.45, 0.61, 0.55, true/*cross referenced*/);
 		games[88] = new Game (6, "Denver Broncos", 275, "Los Angeles Rams", -305, 0.428606689, 0.31, 0.28, 0.23, false);
 		games[89] = new Game (6, "Dallas Cowboys", 155, "Jacksonville Jaguars", -165, 0.485489577, 0.53, 0.4, 0.561, true);
 		games[90] = new Game (6, "Tennessee Titans", 118, "Baltimore Ravens", -128, 0.477920741, 0.53, 0.43, 0.426, false);
@@ -145,7 +145,7 @@ public class Season {
 		games[125] = new Game (9, "Cleveland Browns", 328, "Kansas City Chiefs", -365, 0.282898724, 0.16, 0.22, 0.218, false);
 		games[126] = new Game (9, "Miami Dolphins", -148, "New York Jets", 138, 0.35665229, 0.62, 0.63, 0.611, true);
 		games[127] = new Game (9, "Minnesota Vikings", -225, "Detroit Lions", 205, 0.684103787, 0.68, 0.67, 0.732, true);
-		games[128] = new Game (9, "Washington Redskins", -113, "Atlanta Falcons", 103, 0.518816292, 0.55, 0.6, 0.498, true);
+		games[128] = new Game (9, "Washington Redskins", -113, "Atlanta Falcons", 103, 0.518816292, 0.55, 0.6, 0.498, false); // causing issues *resolved: incorrect game result*
 		games[129] = new Game (9, "Denver Broncos", -108, "Houston Texans", -102, 0.44622159, 0.54, 0.55, 0.507, false);
 		games[130] = new Game (9, "Seattle Seahawks", -105, "Los Angeles Chargers", -105, 0.526342392, 0.61, 0.61, 0.519, false);
 		games[131] = new Game (9, "New Orleans Saints", 112, "Los Angeles Rams", -122, 0.707261264, 0.59, 0.57, 0.498, true);
@@ -476,144 +476,144 @@ public class Season {
 			// AMOS
 			// Away
 			// 0.0-0.19
-			if (games[i].getAmos() > 0.0 && games[i].getAmos() < 0.2 && games[i].getHomeWin() == false) {
+			if ((games[i].getAmos() > 0.0 && games[i].getAmos() < 0.2) && games[i].getHomeWin() == false && games[i].getTie() == false) {
 				a1Count++;
 			}
 			// 0.2-0.29
-			if (games[i].getAmos() >= 0.2 && games[i].getAmos() < 0.3 && games[i].getHomeWin() == false) {
+			if ((games[i].getAmos() >= 0.2 && games[i].getAmos() < 0.3) && games[i].getHomeWin() == false && games[i].getTie() == false) {
 				a2Count++;
 			}
 			// 0.3-0.39
-			if (games[i].getAmos() >= 0.3 && games[i].getAmos() < 0.4 && games[i].getHomeWin() == false) {
+			if ((games[i].getAmos() >= 0.3 && games[i].getAmos() < 0.4) && games[i].getHomeWin() == false && games[i].getTie() == false) {
 				a3Count++;
 			}
 			// 0.4-0.49
-			if (games[i].getAmos() >= 0.4 && games[i].getAmos() < 0.5 && games[i].getHomeWin() == false) {
+			if ((games[i].getAmos() >= 0.4 && games[i].getAmos() < 0.5) && games[i].getHomeWin() == false && games[i].getTie() == false) {
 				a4Count++;
 			}
 			// Home
 			// 0.51-0.59
-			if (games[i].getAmos() > 0.5 && games[i].getAmos() < 0.6 && games[i].getHomeWin() == true) {
+			if ((games[i].getAmos() > 0.5 && games[i].getAmos() < 0.6) && games[i].getHomeWin() == true && games[i].getTie() == false) {
 				a5Count++;
 			}
 			// 0.6-0.69
-			if (games[i].getAmos() >= 0.6 && games[i].getAmos() < 0.7 && games[i].getHomeWin() == true) {
+			if ((games[i].getAmos() >= 0.6 && games[i].getAmos() < 0.7) && games[i].getHomeWin() == true && games[i].getTie() == false) {
 				a6Count++;
 			}
 			// 0.7-0.79
-			if (games[i].getAmos() >= 0.7 && games[i].getAmos() < 0.8 && games[i].getHomeWin() == true) {
+			if ((games[i].getAmos() >= 0.7 && games[i].getAmos() < 0.8) && games[i].getHomeWin() == true && games[i].getTie() == false) {
 				a7Count++;
 			}
 			// 0.8-1
-			if (games[i].getAmos() >= 0.8 && games[i].getAmos() < 1.0 && games[i].getHomeWin() == true) {
+			if ((games[i].getAmos() >= 0.8 && games[i].getAmos() < 1.0) && games[i].getHomeWin() == true && games[i].getTie() == false) {
 				a8Count++;
 			}
 			
 			// ELO
 			// Away
 			// 0.0-0.19
-			if (games[i].getElo() > 0.0 && games[i].getElo() < 0.2 && games[i].getHomeWin() == false) {
+			if (games[i].getElo() > 0.0 && games[i].getElo() < 0.2 && games[i].getHomeWin() == false && games[i].getTie() == false) {
 				e1Count++;
 			}
 			// 0.2-0.29
-			if (games[i].getElo() >= 0.2 && games[i].getElo() < 0.3 && games[i].getHomeWin() == false) {
+			if (games[i].getElo() >= 0.2 && games[i].getElo() < 0.3 && games[i].getHomeWin() == false && games[i].getTie() == false) {
 				e2Count++;
 			}
 			// 0.3-0.39
-			if (games[i].getElo() >= 0.3 && games[i].getElo() < 0.4 && games[i].getHomeWin() == false) {
+			if (games[i].getElo() >= 0.3 && games[i].getElo() < 0.4 && games[i].getHomeWin() == false && games[i].getTie() == false) {
 				e3Count++;
 			}
 			// 0.4-0.49
-			if (games[i].getElo() >= 0.4 && games[i].getElo() < 0.5 && games[i].getHomeWin() == false) {
+			if (games[i].getElo() >= 0.4 && games[i].getElo() < 0.5 && games[i].getHomeWin() == false && games[i].getTie() == false) {
 				e4Count++;
 			}
 			// Home
 			// 0.51-0.59
-			if (games[i].getElo() > 0.5 && games[i].getElo() < 0.6 && games[i].getHomeWin() == true) {
+			if (games[i].getElo() > 0.5 && games[i].getElo() < 0.6 && games[i].getHomeWin() == true && games[i].getTie() == false) {
 				e5Count++;
 			}
 			// 0.6-0.69
-			if (games[i].getElo() >= 0.6 && games[i].getElo() < 0.7 && games[i].getHomeWin() == true) {
+			if (games[i].getElo() >= 0.6 && games[i].getElo() < 0.7 && games[i].getHomeWin() == true && games[i].getTie() == false) {
 				e6Count++;
 			}
 			// 0.7-0.79
-			if (games[i].getElo() >= 0.7 && games[i].getElo() < 0.8 && games[i].getHomeWin() == true) {
+			if (games[i].getElo() >= 0.7 && games[i].getElo() < 0.8 && games[i].getHomeWin() == true && games[i].getTie() == false) {
 				e7Count++;
 			}
 			// 0.8-1
-			if (games[i].getElo() >= 0.8 && games[i].getElo() < 1.0 && games[i].getHomeWin() == true) {
+			if (games[i].getElo() >= 0.8 && games[i].getElo() < 1.0 && games[i].getHomeWin() == true && games[i].getTie() == false) {
 				e8Count++;
 			}
 			
 			// BING
 			// Away
 			// 0.0-0.19
-			if (games[i].getBing() > 0.0 && games[i].getBing() < 0.2 && games[i].getHomeWin() == false) {
+			if (games[i].getBing() > 0.0 && games[i].getBing() < 0.2 && games[i].getHomeWin() == false && games[i].getTie() == false) {
 				b1Count++;
 			}
 			// 0.2-0.29
-			if (games[i].getBing() >= 0.2 && games[i].getBing() < 0.3 && games[i].getHomeWin() == false) {
+			if (games[i].getBing() >= 0.2 && games[i].getBing() < 0.3 && games[i].getHomeWin() == false && games[i].getTie() == false) {
 				b2Count++;
 			}
 			// 0.3-0.39
-			if (games[i].getBing() >= 0.3 && games[i].getBing() < 0.4 && games[i].getHomeWin() == false) {
+			if (games[i].getBing() >= 0.3 && games[i].getBing() < 0.4 && games[i].getHomeWin() == false && games[i].getTie() == false) {
 				b3Count++;
 			}
 			// 0.4-0.49
-			if (games[i].getBing() >= 0.4 && games[i].getBing() < 0.5 && games[i].getHomeWin() == false) {
+			if (games[i].getBing() >= 0.4 && games[i].getBing() < 0.5 && games[i].getHomeWin() == false && games[i].getTie() == false) {
 				b4Count++;
 			}
 			// Home
 			// 0.51-0.59
-			if (games[i].getBing() > 0.5 && games[i].getBing() < 0.6 && games[i].getHomeWin() == true) {
+			if (games[i].getBing() > 0.5 && games[i].getBing() < 0.6 && games[i].getHomeWin() == true && games[i].getTie() == false) {
 				b5Count++;
 			}
 			// 0.6-0.69
-			if (games[i].getBing() >= 0.6 && games[i].getBing() < 0.7 && games[i].getHomeWin() == true) {
+			if (games[i].getBing() >= 0.6 && games[i].getBing() < 0.7 && games[i].getHomeWin() == true && games[i].getTie() == false) {
 				b6Count++;
 			}
 			// 0.7-0.79
-			if (games[i].getBing() >= 0.7 && games[i].getBing() < 0.8 && games[i].getHomeWin() == true) {
+			if (games[i].getBing() >= 0.7 && games[i].getBing() < 0.8 && games[i].getHomeWin() == true && games[i].getTie() == false) {
 				b7Count++;
 			}
 			// 0.8-1
-			if (games[i].getBing() >= 0.8 && games[i].getBing() < 1.0 && games[i].getHomeWin() == true) {
+			if (games[i].getBing() >= 0.8 && games[i].getBing() < 1.0 && games[i].getHomeWin() == true && games[i].getTie() == false) {
 				b8Count++;
 			}
 			
 			// FPI
 			// Away
 			// 0.0-0.19
-			if (games[i].getFpi() > 0.0 && games[i].getFpi() < 0.2 && games[i].getHomeWin() == false) {
+			if (games[i].getFpi() > 0.0 && games[i].getFpi() < 0.2 && games[i].getHomeWin() == false && games[i].getTie() == false) {
 				f1Count++;
 			}
 			// 0.2-0.29
-			if (games[i].getFpi() >= 0.2 && games[i].getFpi() < 0.3 && games[i].getHomeWin() == false) {
+			if (games[i].getFpi() >= 0.2 && games[i].getFpi() < 0.3 && games[i].getHomeWin() == false && games[i].getTie() == false) {
 				f2Count++;
 			}
 			// 0.3-0.39
-			if (games[i].getFpi() >= 0.3 && games[i].getFpi() < 0.4 && games[i].getHomeWin() == false) {
+			if (games[i].getFpi() >= 0.3 && games[i].getFpi() < 0.4 && games[i].getHomeWin() == false && games[i].getTie() == false) {
 				f3Count++;
 			}
 			// 0.4-0.49
-			if (games[i].getFpi() >= 0.4 && games[i].getFpi() < 0.5 && games[i].getHomeWin() == false) {
+			if (games[i].getFpi() >= 0.4 && games[i].getFpi() < 0.5 && games[i].getHomeWin() == false && games[i].getTie() == false) {
 				f4Count++;
 			}
 			// Home
 			// 0.51-0.59
-			if (games[i].getFpi() > 0.5 && games[i].getFpi() < 0.6 && games[i].getHomeWin() == true) {
+			if (games[i].getFpi() > 0.5 && games[i].getFpi() < 0.6 && games[i].getHomeWin() == true && games[i].getTie() == false) {
 				f5Count++;
 			}
 			// 0.6-0.69
-			if (games[i].getFpi() >= 0.6 && games[i].getFpi() < 0.7 && games[i].getHomeWin() == true) {
+			if (games[i].getFpi() >= 0.6 && games[i].getFpi() < 0.7 && games[i].getHomeWin() == true && games[i].getTie() == false) {
 				f6Count++;
 			}
 			// 0.7-0.79
-			if (games[i].getFpi() >= 0.7 && games[i].getFpi() < 0.8 && games[i].getHomeWin() == true) {
+			if (games[i].getFpi() >= 0.7 && games[i].getFpi() < 0.8 && games[i].getHomeWin() == true && games[i].getTie() == false) {
 				f7Count++;
 			}
 			// 0.8-1
-			if (games[i].getFpi() >= 0.8 && games[i].getFpi() < 1.0 && games[i].getHomeWin() == true) {
+			if (games[i].getFpi() >= 0.8 && games[i].getFpi() < 1.0 && games[i].getHomeWin() == true && games[i].getTie() == false) {
 				f8Count++;
 			}
 		}
@@ -624,8 +624,8 @@ public class Season {
 		
 		String aDisp = "Amos: \n0-19: " + a1Count+ "\n20-29: " + a2Count + "\n30-39: " + a3Count + "\n40-49: " + a4Count + "\n51-59: " + a5Count + "\n60-69: " + a6Count + "\n70-79: " + a7Count + "\n80-100: " + a8Count + "\nTotal: " + aTotalCount;
 		String eDisp = "Elo: \n0-19: " + e1Count+ "\n20-29: " + e2Count + "\n30-39: " + e3Count + "\n40-49: " + e4Count + "\n51-59: " + e5Count + "\n60-69: " + e6Count + "\n70-79: " + e7Count + "\n80-100: " + e8Count + "\nTotal: " + eTotalCount;
-		String bDisp = "Bing: \n51-59: " + b1Count + "\n60-69: " + b2Count + "\n70-79: " + b3Count + "\n80-100: " + b4Count + "\nTotal: " + bTotalCount;
-		String fDisp = "FPI: \n51-59: " + f1Count + "\n60-69: " + f2Count + "\n70-79: " + f3Count + "\n80-100: " + f4Count + "\nTotal: " + fTotalCount;
+		String bDisp = "Bing: \n0-19: " + b1Count+ "\n20-29: " + b2Count + "\n30-39: " + b3Count + "\n40-49: " + b4Count + "\n51-59: " + b5Count + "\n60-69: " + b6Count + "\n70-79: " + b7Count + "\n80-100: " + b8Count + "\nTotal: " + bTotalCount;
+		String fDisp = "FPI: \n0-19: " + f1Count+ "\n20-29: " + f2Count + "\n30-39: " + f3Count + "\n40-49: " + f4Count + "\n51-59: " + f5Count + "\n60-69: " + f6Count + "\n70-79: " + f7Count + "\n80-100: " + f8Count + "\nTotal: " + fTotalCount;
 		
 		return aDisp + "\n" + eDisp + "\n" + bDisp + "\n" + fDisp;
 	}
@@ -633,23 +633,7 @@ public class Season {
 	public void testing() {
 		// AMOS
 		for (int i=0; i < games.length; i++) {
-			if (games[i].getAmos() > 0.5) { // if Amos predicts home to win
-				if (games[i].getHomeMoneyline() > 0) { // if homeMoneyline is greater than 0
-					amosTotal -= games[i].getHomeMoneyline(); // subtract homeMoneyline from amosTotal
-					System.out.println(amosTotal + " : H " + games[i].getHomeMoneyline());
-				} else { // if homeMoneyline is less than 0
-					amosTotal += games[i].getHomeMoneyline(); // add homeMoneyline to amos total (positive plus a negative is subtraction)
-					System.out.println(amosTotal + " : H " + games[i].getHomeMoneyline());
-				}
-			} else { // if Amos predicts away to win
-				if (games[i].getAwayMoneyline() > 0) { // if awayMoneyline is greater than 0
-					amosTotal -= games[i].getAwayMoneyline(); // subtract awayMoneyline from amosTotal
-					System.out.println(amosTotal + " : A " + games[i].getAwayMoneyline());
-				} else { // if awayMoneyline is less than 0
-					amosTotal += games[i].getAwayMoneyline(); // add awayMoneyline to amos total (positive plus a negative is subtraction)
-					System.out.println(amosTotal + " : A " + games[i].getAwayMoneyline());
-				}
-			}	
+			System.out.println(games[i].getFpi());
 		}
 	}
 }

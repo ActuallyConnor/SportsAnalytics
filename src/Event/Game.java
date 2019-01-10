@@ -11,6 +11,7 @@ public class Game {
 	public double bing;
 	public double fpi;
 	public boolean homeWin;
+	public boolean tie = false;
 	public Game(int w, String h, int hMl, String a, int aMl, double am, double el, double bi, double fp, boolean hW) {
 		weekNumber = w;
 		home = h;
@@ -43,5 +44,11 @@ public class Game {
 	}
 	public boolean getHomeWin() {
 		return homeWin;
+	}
+	public void setTie(boolean t) {
+		tie = t;
+	}
+	public boolean getTie() {
+		return tie;
 	}
 }

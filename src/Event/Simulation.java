@@ -6,7 +6,7 @@ public class Simulation {
 		System.out.println(season.deductBets());
 		System.out.println(season.applyWinnings());
 		System.out.println(season.percBracket());
-		// season.testing();
+		//season.testing();
 		// current output: not good
 		/*
 		-58574.0 -58574.0 -58574.0 -58574.0
