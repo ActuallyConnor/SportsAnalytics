@@ -630,10 +630,54 @@ public class Season {
 		return aDisp + "\n" + eDisp + "\n" + bDisp + "\n" + fDisp;
 	}
 	
+	public double bottom;
+	public double top;
+	public double bettingBracket(double b, double t) {
+		bottom = b;
+		top = t;
+		
+		for (int i=0; i < games.length; i++) {
+			if (games[i].getAmos() >= bottom && games[i].getAmos() < top) {
+				if (games[i].getAmos() > 0.5) { // if Amos predicts home to win
+					if (games[i].getHomeMoneyline() > 0) { // if homeMoneyline is greater than 0
+						amosTotal -= games[i].getHomeMoneyline(); // subtract homeMoneyline from amosTotal
+					} else { // if homeMoneyline is less than 0
+						amosTotal += games[i].getHomeMoneyline(); // add homeMoneyline to amos total (positive plus a negative is subtraction)
+					}
+				} else { // if Amos predicts away to win
+					if (games[i].getAwayMoneyline() > 0) { // if awayMoneyline is greater than 0
+						amosTotal -= games[i].getAwayMoneyline(); // subtract awayMoneyline from amosTotal
+					} else { // if awayMoneyline is less than 0
+						amosTotal += games[i].getAwayMoneyline(); // add awayMoneyline to amos total (positive plus a negative is subtraction)
+					}
+				}
+				
+				if (games[i].getAmos() > 0.5 && games[i].getHomeWin() == true) { // if Amos predicts home team and home team wins
+					if (games[i].getHomeMoneyline() > 0) { // if homeMoneyline is greater than 0
+						amosTotal += games[i].getHomeMoneyline(); // add homeMoneyline from amosTotal
+						amosTotal += 100; // add 100 for winnings
+					} else { // if homeMoneyline is less than 0
+						amosTotal -= games[i].getHomeMoneyline(); // add homeMoneyline to amos total (positive minus a negative is addition)
+						amosTotal += 100; // add 100 for winnings
+					}
+				} else if (games[i].getAmos() < 0.5 && games[i].getHomeWin() == false) { // if Amos predicts away team and away team wins
+					if (games[i].getAwayMoneyline() > 0) { // if awayMoneyline is greater than 0
+						amosTotal += games[i].getAwayMoneyline(); // add awayMoneyline from amosTotal
+						amosTotal += 100; // add 100 for winnings
+					} else { // if awayMoneyline is less than 0
+						amosTotal -= games[i].getAwayMoneyline(); // add awayMoneyline to amos total (positive minus a negative is subtraction)
+						amosTotal += 100; // add 100 for winnings
+					}
+				} // no else, money already subtracted
+			}
+		}
+		return amosTotal;
+	}
+	
 	public void testing() {
 		// AMOS
 		for (int i=0; i < games.length; i++) {
-			System.out.println(games[i].getFpi());
+			System.out.println(games[i].getAwayMoneyline());
 		}
 	}
 }
